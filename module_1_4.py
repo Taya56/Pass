@@ -1,0 +1,8 @@
+my_string = input("Здраствуйте. Как к вам можно обращаться? ")
+print(f"Здраствуйте, {my_string}. Мы рады с вами познокомиться.")
+print(len(my_string))
+print(my_string.upper())
+print(my_string.lower())
+print('В Этой Строке Удалины Пробелы'.replace(' ',''))
+print(my_string[0])
+print(my_string[-1])
