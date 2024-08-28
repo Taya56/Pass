@@ -10,7 +10,6 @@ print(my_dict)
 
 #Множества
 my_set = {1,2,3,4,"Привет", True, 1,2,3,4}
-my_set.add(9)
-my_set.add(5)
+my_set.update({6,7})
 my_set.discard(True)
 print(my_set)
