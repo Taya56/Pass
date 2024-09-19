@@ -5,9 +5,10 @@ third=int(input())
 
 if first==second==third:
     print("3 одинаковых числа")
-elif first or second and third:
+elif first == second != third:
     print("2 одинаковых числа")
-elif first and second or third:
+elif first != second == third:
     print("2 одинаковых числа")
 else:
     print("Нет одинаковых чисел")
+
