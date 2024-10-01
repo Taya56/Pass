@@ -11,6 +11,8 @@ couples_lst = []
 for i in numbers_lst:
     for j in numbers_lst:
         sum = i+j
+        if i == j:
+            continue
         if sum <= insertOne:
             if insertOne % sum == 0:
                 couples_lst.append([i,j])
