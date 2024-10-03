@@ -1,7 +1,8 @@
 calls = 0
 
 while True:
-    string = input("Введите слово: ")
+    """string = input("Введите слово: ")"""
+    string = 'qwer'
 
     def count_calls(calls):
         calls += 1
